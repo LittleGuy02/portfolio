@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="text-white font-sans">
+
+  <!-- Navbar -->
+  <div class="bg-gray-800 p-4 flex justify-between items-center shadow-md">
+    <h1 class="text-xl text-cyan-400 font-bold">My Portfolio</h1>
+    <nav>
+      <a href="#home" class="mx-2 text-white hover:text-cyan-400">HOME</a>
+      <a href="#about" class="mx-2 text-white hover:text-cyan-400">ABOUT ME</a>
+      <a href="#contact" class="mx-2 text-white hover:text-cyan-400">CONTACT</a>
+    </nav>
+  </div>
+
+  <!-- Home Section -->
+  <section id="home" class="fade-in h-screen flex flex-col items-center justify-center text-center px-4">
+    <img src="Chisa Wuthering Waves⟡ ݁₊ _.jpeg" alt="Profile Photo" class="w-32 h-32 rounded-full mb-4 border-4 border-cyan-400 shadow-lg hover:scale-110 transition-transform duration-300" />
+    <h2 class="text-4xl mb-2 font-semibold">Hello, I'm Kianaa</h2>
+    <p class="text-gray-300 mb-4">I love learning web development!</p>
+    <a href="#contact" class="bg-cyan-500 text-white px-5 py-2 rounded hover:bg-cyan-600 transition">Contact Me</a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="fade-in py-16 px-4 bg-gray-800 text-center">
+    <h2 class="text-3xl text-cyan-400 font-bold mb-4">About Me</h2>
+    <p class="text-gray-300 max-w-xl mx-auto leading-relaxed">
+      Saya sedang belajar membuat website menggunakan HTML, CSS, Tailwind, dan JavaScript.
+      Saya ingin menjadi web developer yang bisa membuat tampilan menarik dan fungsional.
+    </p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="fade-in py-16 px-4 text-center">
+    <h2 class="text-3xl text-cyan-400 font-bold mb-4">Contact Me</h2>
+    <form class="space-y-4 max-w-md mx-auto">
+      <input type="text" placeholder="Your Name" class="w-full p-3 rounded bg-gray-700 text-white" />
+      <input type="email" placeholder="Your Email" class="w-full p-3 rounded bg-gray-700 text-white" />
+      <textarea placeholder="Your Message" class="w-full p-3 rounded bg-gray-700 text-white h-32"></textarea>
+      <button type="submit" class="bg-cyan-500 px-6 py-2 rounded text-white hover:bg-cyan-600 transition">Send</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-center p-4 text-sm text-gray-400">
+    &copy; 2025 Kianaa - All rights reserved
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
